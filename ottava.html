@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title> una ottava pagina </title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body class="ottavapagina">
+    <h1 class="gallery"> Contacts </h1>
+    <hr class="lineauno" width="700" color=""> </hr>
+    <!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+<body>
+    
+    <div class="contact-icons">
+        <a href="https://www.facebook.com/nino.rappocciolo" target="_blank">
+            <i class="fa fa-facebook"></i>
+            <span class="contact-label">Facebook</span>
+        </a>
+        <a href="https://www.instagram.com/advenrapp/" target="_blank">
+            <i class="fa fa-instagram"></i>
+            <span class="contact-label">Instagram</span>
+        </a>
+        <a href="mailto:antoninorappocciolo@gmail.com" target="_blank">
+          <i class="fa fa-envelope"></i>
+          <spam class="contact-label">Email</spam>
+        </a>
+        <!-- Aggiungi altre icone e contatti -->
+    </div>
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form di Contatto</title>
+    <style>
+        .contact-form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            color: #213242;
+        }
+        
+        .contact-form button {
+            padding: 5px 10px;
+            background-color: #213242;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-form">
+        <h2>Contattaci</h2>
+        <form action="process-comment.php" method="post" enctype="text/plain">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Messaggio:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Invia</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+   

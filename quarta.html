@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title> una quarta pagina </title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body class="quartapagina">
+    <h1 class="gallery"> DIGITAL </h1>
+    <hr width="700" color>
+    <div id="mySidenav" class="sidenav">
+      <a href="seconda.html" id="back">Back</a>
+    <div class="row"> 
+        <div class="column">
+          <img src="immagini/copicpilloledigital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/copicx3digital.png"onclick="openPopup(this)">
+          <img src="immagini/digital1.png"onclick="openPopup(this)">
+          <img src="immagini/digital2.png"onclick="openPopup(this)">
+          <img src="immagini/digital3.png"onclick="openPopup(this)">
+          <img src="immagini/crystal skull.jpg"onclick="openPopup(this)">
+          <img src="immagini/human tree.jpg"onclick="openPopup(this)">
+        </div>
+        <div class="column">
+          <img src="immagini/manta.jpg"onclick="openPopup(this)">
+          <img src="immagini/smoking skull.jpg"onclick="openPopup(this)">
+          <img src="immagini/skull drowing.jpg"onclick="openPopup(this)">
+          <img src="immagini/teschio ink colore.jpeg"onclick="openPopup(this)">
+          <img src="immagini/zoom digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/colore 1 digital.jpeg"onclick="openPopup(this)">
+        </div> 
+        <div class="column">
+          <img src="immagini/morte colorata digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/occhio digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/figo digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/corna digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/colore 2 digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/teschio bello digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/morte digital.jpeg"onclick="openPopup(this)">
+        </div>
+        <div class="column">
+          <img src="immagini/zoooom digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/quattro digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/orologio digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/tutto digital.jpeg"onclick="openPopup(this)">
+          <img src="immagini/Unknown-11.jpeg"onclick="openPopup(this)">
+          <img src="immagini/zoooom 3.jpeg"onclick="openPopup(this)">
+        </div>
+      </div>
+      <div class="popup" onclick="closePopup()">
+        <img id="popupImage">
+      </div>
+      <script>
+        function openPopup(image) {
+          var popup = document.querySelector('.popup');
+          var popupImage = document.getElementById('popupImage');
+          popupImage.src = image.src;
+          popup.style.display = 'block';
+        }
+      
+        function closePopup() {
+          var popup = document.querySelector('.popup');
+          popup.style.display = 'none';
+        }
+      </script>

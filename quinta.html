@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title> una quinta pagina </title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body class="quintapagina">
+    <h1 class="inkpagina"> INK </h1>
+    <hr width="700" color="">
+    <div id="mySidenav" class="sidenav">
+      <a href="seconda.html" id="back">Back</a>
+    <div class="row"> 
+        <div class="column">
+          <img src="immagini/chiesaink.png"onclick="openPopup(this)">
+          <img src="immagini/donna-lametteink.png"onclick="openPopup(this)">
+          <img src="immagini/donnafoglieink.png" onclick="openPopup(this)"> 
+          <img src="immagini/">
+          <img src="immagini/robotink.png"onclick="openPopup(this)">
+          <img src="immagini/scheletro-cuoreink.png"onclick="openPopup(this)">
+          <img src="immagini/"onclick="openPopup(this)">
+        </div>
+        <div class="column">
+          <img src="immagini/scheletropezziink.png"onclick="openPopup(this)">
+          <img src="immagini/elephant.jpg"onclick="openPopup(this)">
+          <img src="immagini/gemini.jpg"onclick="openPopup(this)">
+          <img src="immagini/sagipter 2.jpg"onclick="openPopup(this)">
+          <img src="immagini/skull mouse.jpg"onclick="openPopup(this)">
+          <img src="immagini/squid skull.jpg"onclick="openPopup(this)">
+        </div> 
+        <div class="column">
+          <img src="immagini/sagipter.jpg"onclick="openPopup(this)">
+          <img src="immagini/teschio bello ink .jpeg"onclick="openPopup(this)">
+          <img src="immagini/lune ink.jpeg"onclick="openPopup(this)">
+          <img src="immagini/labbro ink.jpeg"onclick="openPopup(this)">
+          <img src="immagini/albero ink .jpeg"onclick="openPopup(this)">
+          <img src="immagini/teschio ink colore.jpeg"onclick="openPopup(this)">
+          <img src="paris.jpg">
+        </div>
+        <div class="column">
+          <img src="underwater.jpg">
+          <img src="ocean.jpg">
+          <img src="wedding.jpg">
+          <img src="mountainskies.jpg">
+          <img src="rocks.jpg">
+          <img src="underwater.jpg">
+        </div>
+      </div>
+      <div class="popup" onclick="closePopup()">
+        <img id="popupImage">
+      </div>
+      <script>
+        function openPopup(image) {
+          var popup = document.querySelector('.popup');
+          var popupImage = document.getElementById('popupImage');
+          popupImage.src = image.src;
+          popup.style.display = 'block';
+        }
+      
+        function closePopup() {
+          var popup = document.querySelector('.popup');
+          popup.style.display = 'none';
+        }
+      </script>
+      
+      
