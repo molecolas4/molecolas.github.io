@@ -1,4 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/vegawanty');
+@import url('https://fonts.cdnfonts.com/css/open-sans'); 
+
 body{margin: 5;
     background-color: #f1e7db;
 }
@@ -269,21 +271,61 @@ h1.gallery {
 font-family: 'Vegawanty';
 text-align: center;
 color: #213242;}
-.biography-box {
-  font-family:'Courier New', Courier, monospace ;
+@import url();
+ @import url('https://fonts.cdnfonts.com/css/open-sans'); 
+.bio-description {width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0.10); /* Imposta il colore di sfondo bianco con trasparenza (0.8) */
-  padding: 20px; /* Aggiungi spazio intorno al contenuto della biografia */
-  border-radius: 50px; /* Aggiungi bordi arrotondati al riquadro */
+  padding: 10px; /* Aggiungi spazio intorno al contenuto della biografia */
+  border-radius: 100px; /* Aggiungi bordi arrotondati al riquadro */
+  font-family: 'Open Sans', sans-serif;
 }
-.biography-box { text-align: justify;}
+.biography-box { width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;}
 
 .biography-box p {
   margin-bottom: 50px; /* Aggiungi uno spazio inferiore tra i paragrafi della biografia */
 }
+.biography-box img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.settima-pagina {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;}
+
+  .profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+  }
+  .bio{
+    margin-bottom: 20px;
+  font-size: 30px;}
+  .full-width-image{
+    width: 100%;
+    height: auto;
+  }
+  
+
+
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 896px) 
   and (orientation: portrait) 
-  and (-webkit-device-pixel-ratio: 2) {
-    /* Regole CSS per l'iPhone 11 in modalità ritratto */
-}
+  and (-webkit-device-pixel-ratio: 2){}
+ 
