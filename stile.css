@@ -280,3 +280,10 @@ color: #213242;}
 .biography-box p {
   margin-bottom: 50px; /* Aggiungi uno spazio inferiore tra i paragrafi della biografia */
 }
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 896px) 
+  and (orientation: portrait) 
+  and (-webkit-device-pixel-ratio: 2) {
+    /* Regole CSS per l'iPhone 11 in modalità ritratto */
+}
