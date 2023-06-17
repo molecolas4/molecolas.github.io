@@ -397,17 +397,17 @@ color: #213242;}
 @media only screen and (max-width: 600px) {
   /* Modifica la dimensione del titolo "MOLECOLAS" */
   body .index .molecolas {
-    font-size: 60px;
+    font-size: 80px;
   }
   
   /* Modifica la dimensione del testo "VISIT THE PAGE" */
  body .index .visit {
-    font-size: 30px;
+    font-size: 40px;
   }
   
   /* Modifica la dimensione del menu */
  body #mySidenav a {
-    font-size: 25px;
-    padding: 10px;
+    font-size: 30px;
+    padding: 20px;
   }
 }
