@@ -396,17 +396,17 @@ color: #213242;}
 /* Media query per dispositivi mobili con larghezza massima di 600px */
 @media only screen and (max-width: 600px) {
   /* Modifica la dimensione del titolo "MOLECOLAS" */
-  .molecolas {
+  body .index .molecolas {
     font-size: 60px;
   }
   
   /* Modifica la dimensione del testo "VISIT THE PAGE" */
-  .visit {
+ body .index .visit {
     font-size: 30px;
   }
   
   /* Modifica la dimensione del menu */
-  #mySidenav a {
+ body #mySidenav a {
     font-size: 25px;
     padding: 10px;
   }
