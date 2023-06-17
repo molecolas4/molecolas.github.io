@@ -352,8 +352,25 @@ color: #213242;}
   .bio-description {
     font-size: 20px;
   }
+.molecolas {
+  font-size: 60px;
+}
+.visit {
+  font-size: 40px;
+}
+#mySidenav {
+  font-size: 25px;
+  padding: 10px;
 }
 
+}
+.artistbio{
+  font-size: 50px;
+}
+.artist-name{font-size: 40px;}
+  .bio-description {
+    font-size: 16px;
+  }
 /* Media query per dispositivi mobili con larghezza massima di 414px e orientamento verticale */
 @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
   /* Inserisci qui le modifiche CSS per i dispositivi mobili con schermo più piccolo */
@@ -374,11 +391,5 @@ color: #213242;}
     max-width: 100%;
     max-height: 100%;
   }
-.artistbio{
-  font-size: 50px;
-}
-.artist-name{font-size: 40px;}
-  .bio-description {
-    font-size: 16px;
-  }
+
 }
