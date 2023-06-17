@@ -374,7 +374,10 @@ color: #213242;}
     max-width: 100%;
     max-height: 100%;
   }
-
+.artistbio{
+  font-size: 50px;
+}
+.artist-name{font-size: 40px;}
   .bio-description {
     font-size: 16px;
   }
