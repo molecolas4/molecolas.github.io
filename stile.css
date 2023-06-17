@@ -417,6 +417,6 @@ body #mySidenav a {
   /* Modifica la dimensione del menu */
  body #mySidenav a {
     font-size: 30px;
-    padding: 20px;
+    padding: 40px;
   }
 }
