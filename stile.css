@@ -328,4 +328,54 @@ color: #213242;}
   and (max-device-width: 896px) 
   and (orientation: portrait) 
   and (-webkit-device-pixel-ratio: 2){}
- 
+ /* Media query per dispositivi mobili con larghezza massima di 600px */
+@media only screen and (max-width: 600px) {
+  /* Inserisci qui le modifiche CSS per i dispositivi mobili */
+  h1 {
+    font-size: 60px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .popup img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .bio-description {
+    font-size: 20px;
+  }
+}
+
+/* Media query per dispositivi mobili con larghezza massima di 414px e orientamento verticale */
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Inserisci qui le modifiche CSS per i dispositivi mobili con schermo più piccolo */
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .popup img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .bio-description {
+    font-size: 16px;
+  }
+}
