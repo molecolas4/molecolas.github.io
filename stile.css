@@ -383,6 +383,15 @@ h1.gallery {
   width: 100%;
   height: auto;
 }
+.artistbio {
+  font-size: 50px;
+}
+.artist-name {
+  font-size: 40px;
+}
+.bio-description {
+  font-size: 16px;
+}
 
 @media screen and (max-width: 800px) {
   .column {
@@ -441,42 +450,3 @@ h1.gallery {
     padding: 20px;
   }
 }
-.artistbio {
-  font-size: 50px;
-}
-.artist-name {
-  font-size: 40px;
-}
-.bio-description {
-  font-size: 16px;
-}
-/* Media query per dispositivi mobili con larghezza massima di 414px e orientamento verticale */
-/* @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-  h1 {
-    font-size: 40px;
-  }
-
-  h2 {
-    font-size: 16px;
-  }
-
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-
-  .popup img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  body .index .molecolas {
-    font-size: 80px;
-  }
-  body .index .visit {
-    font-size: 40px;
-  }
-  body #mySidenav a {
-    font-size: 30px;
-    padding: 20px;
-  }
-} */
