@@ -1,171 +1,216 @@
-@import url('https://fonts.cdnfonts.com/css/vegawanty');
-@import url('https://fonts.cdnfonts.com/css/open-sans'); 
+@import url("https://fonts.cdnfonts.com/css/vegawanty");
+@import url("https://fonts.cdnfonts.com/css/open-sans");
 
-body{margin: 5;
-    background-color: #f1e7db;
+body {
+  margin: 5;
+  background-color: #f1e7db;
 }
-.index{background-color: #f1e7db;}
+
+.index {
+  background-color: #f1e7db;
+}
+
 h1 {
-    font-size: 90px;
-    font-family: 'Vegawanty', sans-serif;
-    text-align: center;
-    color: rgb(116, 33, 33);
+  font-size: 90px;
+  font-family: "Vegawanty", sans-serif;
+  text-align: center;
+  color: rgb(116, 33, 33);
 }
+
 h2 {
-    font-size: 30px;
-    font-family: 'Vegawanty';
-    text-align: center;
-    color: #213242;
+  font-size: 30px;
+  font-family: "Vegawanty";
+  text-align: center;
+  color: #213242;
 }
+
 #mySidenav a {
-    position: absolute; 
-    left: -80px; 
-    transition: 0.3s; 
-    padding: 15px; 
-    width: 100px; 
-    text-decoration: none; 
-    font-size: 20px; 
-    color:  rgb(240, 232, 218); 
-    border-radius: 0 5px 5px 0; 
-  }
-  
-  #mySidenav a:hover {
-    left: 0; 
-  }
-  #gallery {
-    top: 20px;
-    background-color: #b75b4e;}
-   #about {
-    top: 80px;
-     background-color: #0f6684; }
-  #contact {
-    top: 140px;
-    background-color: #213242; /* Red */
-  }
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(240, 232, 218);
+  border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover {
+  left: 0;
+}
+
+#gallery {
+  top: 20px;
+  background-color: #b75b4e;
+}
+
+#about {
+  top: 80px;
+  background-color: #0f6684;
+}
+
+#contact {
+  top: 140px;
+  background-color: #213242; /* Red */
+}
+
 .secondapagina {
-    margin: 5px;
-    background-color: #f1e7db(240, 232, 218);
+  margin: 5px;
+  background-color: #f1e7db;
 }
-hr{color: rgb(116, 33, 33);}
-.gallery{ font-size: 40px;
-font-family: 'Vegawanty';
-text-align: center;
-color: #213242;}
-.digital {font-size: 30px;
-    font-family: 'Vegawanty';
-    text-align: center;
-    color: #213242;
+
+hr {
+  color: rgb(116, 33, 33);
+  width: 85%;
 }
-.ink {font-size: 30px;
-    font-family: 'Vegawanty';
-    text-align: center;
-    color: #213242;}
-.watercolor{font-size: 30px;
-    font-family: 'Vegawanty';
-    text-align: center;
-    color: #213242;}
-.sketchbooks{ font-size: 40px;
-    font-family: 'Vegawanty';
-    text-align: center;
-    color: #213242;}
-.about{font-size: 40px;
-    font-family: 'Vegawanty';
-    text-align: center;
-    color: #213242;}
-.artistbio{font-size: 30px;
-    font-family: 'Vegawanty';
-    text-align: center;
-    color: #213242;}
-.contact { 
-    font-size: 30px;
-    font-family: 'Vegawanty';
-    text-align: center;
-    color: #213242;
+
+.gallery {
+  font-size: 40px;
+  font-family: "Vegawanty";
+  text-align: center;
+  color: #213242;
 }
-.a:active {color: #213242;}
-.terzapagina{ margin: 5px;
-  background-color: #f1e7db;}
-  #back {
-    top: 20px;
-    background-color: #b75b4e;}
+.digital {
+  font-size: 30px;
+  font-family: "Vegawanty";
+  text-align: center;
+  color: #213242;
+}
+.ink {
+  font-size: 30px;
+  font-family: "Vegawanty";
+  text-align: center;
+  color: #213242;
+}
+.watercolor {
+  font-size: 30px;
+  font-family: "Vegawanty";
+  text-align: center;
+  color: #213242;
+}
+.sketchbooks {
+  font-size: 40px;
+  font-family: "Vegawanty";
+  text-align: center;
+  color: #213242;
+}
+.about {
+  font-size: 40px;
+  font-family: "Vegawanty";
+  text-align: center;
+  color: #213242;
+}
+.artistbio {
+  font-size: 30px;
+  font-family: "Vegawanty";
+  text-align: center;
+  color: #213242;
+}
+.contact {
+  font-size: 30px;
+  font-family: "Vegawanty";
+  text-align: center;
+  color: #213242;
+}
+.a:active {
+  color: #213242;
+}
+.terzapagina {
+  margin: 5px;
+  background-color: #f1e7db;
+}
+#back {
+  top: 20px;
+  background-color: #b75b4e;
+}
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
-  
-  body, html {
-    height: 100%;
-    margin: 0;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .bg-image {
-    
-    height: 50%; 
-  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  /* Images used */
-  .img1 { background-image: url("immagini/donna\ e\ farfallewatercolor.jpeg"); }
-  .img2 { background-image: url("immagini/copertina\ 2.jpg"); }
-  .img3 { background-image: url("immagini/copertina\ 7.jpg"); }
-  .img4 { background-image: url("immagini/copertina\ 10.jpg"); }
-  .img5 { background-image: url("immagini/copertina\ 6.jpg"); }
-  .img6 { background-image: url("immagini/copertina\ 12.jpg"); }
-  .img7 { background-image: url("immagini/copertina\ 11.jpg");}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
 
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 
-  a:link {color: #213242;
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 {
+  background-image: url("immagini/donna\ e\ farfallewatercolor.jpeg");
+}
+.img2 {
+  background-image: url("immagini/copertina\ 2.jpg");
+}
+.img3 {
+  background-image: url("immagini/copertina\ 7.jpg");
+}
+.img4 {
+  background-image: url("immagini/copertina\ 10.jpg");
+}
+.img5 {
+  background-image: url("immagini/copertina\ 6.jpg");
+}
+.img6 {
+  background-image: url("immagini/copertina\ 12.jpg");
+}
+.img7 {
+  background-image: url("immagini/copertina\ 11.jpg");
+}
+
+a:link {
+  color: #213242;
   background-color: transparent;
-text-decoration: none;}
+  text-decoration: none;
+}
 
-a:visited{color:#213242 ;}
-a:active{color: #213242;}
-a:hover{color:#b75b4e;
-text-decoration: none;
-background-color: transparent;}
-  .quartapagina { margin: 5px;
-    background-color: #f1e7db;}
-.quintapagina{ margin: 5px;
-  background-color: #f1e7db;}
-.bio { text-align:center;}
-
-
-
+a:visited {
+  color: #213242;
+}
+a:active {
+  color: #213242;
+}
+a:hover {
+  color: #b75b4e;
+  text-decoration: none;
+  background-color: transparent;
+}
+.quartapagina {
+  margin: 5px;
+  background-color: #f1e7db;
+}
+.quintapagina {
+  margin: 5px;
+  background-color: #f1e7db;
+}
+.bio {
+  text-align: center;
+}
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
@@ -178,17 +223,20 @@ background-color: transparent;}
 
 /* Style the icon bar links */
 .icon-bar a {
-  display:block;
-  text-align:center;
+  display: block;
+  text-align: center;
   padding: 30px;
   transition: all 0.3s ease;
   color: white;
   font-size: 28px;
 }
 
-.quintapagina{background-color: rgb(50, 50, 52);}
-.inkpagina{color: white;}
-
+.quintapagina {
+  background-color: rgb(50, 50, 52);
+}
+.inkpagina {
+  color: white;
+}
 
 .popup {
   display: none;
@@ -242,7 +290,7 @@ h1.gallery {
   text-decoration: none;
   color: #333;
   margin-bottom: 20px;
-  font-size: 30px ;
+  font-size: 30px;
   transition: color 0.3s ease;
 }
 
@@ -250,46 +298,59 @@ h1.gallery {
   font-size: 50px;
   margin-right: 10px;
 }
-.contact-icons a:hover {color:#b75b4e}
+.contact-icons a:hover {
+  color: #b75b4e;
+}
 
 .contact-label {
   font-size: 18px;
 }
-.bio-description{ font-size: 30px;
-  font-family: 'Vegawanty', sans-serif;
+.bio-description {
+  font-size: 30px;
+  font-family: "Vegawanty", sans-serif;
   text-align: center;
-  color:#213242}
-  .bio-content {
-    text-align: center;
+  color: #213242;
+}
+.bio-content {
+  text-align: center;
 }
 
 .bio-description {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
-.homepage{font-size: 50px;
-font-family: 'Vegawanty';
-text-align: center;
-color: #213242;}
-@import url();
- @import url('https://fonts.cdnfonts.com/css/open-sans'); 
-.bio-description {width: 100%;
+.homepage {
+  font-size: 50px;
+  font-family: "Vegawanty";
+  text-align: center;
+  color: #213242;
+}
+
+.bio-description {
+  width: 100%;
   max-width: 800px;
   margin: 0 auto;
   padding: 50px;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 0.10); /* Imposta il colore di sfondo bianco con trasparenza (0.8) */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Imposta il colore di sfondo bianco con trasparenza (0.8) */
   padding: 10px; /* Aggiungi spazio intorno al contenuto della biografia */
   border-radius: 100px; /* Aggiungi bordi arrotondati al riquadro */
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-.biography-box { width: 100%;
+.biography-box {
+  width: 100%;
   max-width: 800px;
   margin: 0 auto;
   padding: 50px;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  text-align: left;}
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
 
 .biography-box p {
   margin-bottom: 50px; /* Aggiungi uno spazio inferiore tra i paragrafi della biografia */
@@ -304,41 +365,43 @@ color: #213242;}
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;}
+  flex-direction: column;
+}
 
-  .profile-image{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 20px auto;
-    display: block;
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+.bio {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.full-width-image {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
-  .bio{
-    margin-bottom: 20px;
-  font-size: 30px;}
-  .full-width-image{
-    width: 100%;
-    height: auto;
-  }
-  
+}
 
-
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 896px) 
-  and (orientation: portrait) 
-  and (-webkit-device-pixel-ratio: 2){}
- /* Media query per dispositivi mobili con larghezza massima di 600px */
+/* Media query per dispositivi mobili con larghezza massima di 600px */
 @media only screen and (max-width: 600px) {
   /* Inserisci qui le modifiche CSS per i dispositivi mobili */
   h1 {
     font-size: 60px;
   }
-  
+
   h2 {
     font-size: 20px;
   }
-  
+
   .column {
     flex: 100%;
     max-width: 100%;
@@ -352,71 +415,68 @@ color: #213242;}
   .bio-description {
     font-size: 20px;
   }
-.molecolas {
-  font-size: 60px;
-}
-.visit {
-  font-size: 40px;
-}
-#mySidenav {
-  font-size: 25px;
-  padding: 10px;
-}
-
-}
-.artistbio{
-  font-size: 50px;
-}
-.artist-name{font-size: 40px;}
-  .bio-description {
-    font-size: 16px;
+  .molecolas {
+    font-size: 60px;
   }
-/* Media query per dispositivi mobili con larghezza massima di 414px e orientamento verticale */
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-  /* Inserisci qui le modifiche CSS per i dispositivi mobili con schermo più piccolo */
-  h1 {
+  .visit {
     font-size: 40px;
   }
-  
-  h2 {
-    font-size: 16px;
+  #mySidenav {
+    font-size: 25px;
+    padding: 10px;
   }
-  
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-
-  .popup img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-body .index .molecolas {
-  font-size: 80px;
-}
-body .index .visit{
-  font-size:  40px;
-}
-body #mySidenav a {
-  font-size: 30px;
-  padding: 20px;
-}
-}
-/* Media query per dispositivi mobili con larghezza massima di 600px */
-@media only screen and (max-width: 600px) {
   /* Modifica la dimensione del titolo "MOLECOLAS" */
   body .index .molecolas {
     font-size: 80px;
   }
-  
+
   /* Modifica la dimensione del testo "VISIT THE PAGE" */
- body .index .visit {
+  body .index .visit {
     font-size: 40px;
   }
-  
+
   /* Modifica la dimensione del menu */
- body #mySidenav a {
-    font-size: 30px;
-    padding: 40px;
+  body #mySidenav a {
+    font-size: 15px;
+    padding: 20px;
   }
 }
+.artistbio {
+  font-size: 50px;
+}
+.artist-name {
+  font-size: 40px;
+}
+.bio-description {
+  font-size: 16px;
+}
+/* Media query per dispositivi mobili con larghezza massima di 414px e orientamento verticale */
+/* @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .popup img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  body .index .molecolas {
+    font-size: 80px;
+  }
+  body .index .visit {
+    font-size: 40px;
+  }
+  body #mySidenav a {
+    font-size: 30px;
+    padding: 20px;
+  }
+} */
