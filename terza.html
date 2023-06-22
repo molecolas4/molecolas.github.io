@@ -1,64 +1,66 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-  <meta name="viewport" content="width=device-wiidth"/>
+    <meta name="viewport" content="width=device-width" />
     <title> una terza pagina </title>
     <link rel="stylesheet" href="stile.css">
 </head>
+
 <body class="terzapagina">
     <h1 class="gallery"> WATERCOLOR </h1>
     <hr width="700" color="">
     <div id="mySidenav" class="sidenav">
-      <a href="seconda.html" id="back">Back</a>
-    <div class="row"> 
-        <div class="column">
-          <img src="immagini/donna e farfallewatercolor.jpeg"onclick="openPopup(this)">
-          <img src="immagini/donnaranawatercolor.jpeg"onclick="openPopup(this)">
-          <img src="immagini/indacox2watercolor.jpeg"onclick="openPopup(this)">
-          <img src="immagini/medusawatercolor.png"onclick="openPopup(this)">
-          <img src="immagini/scheletriwatercolor.jpg"onclick="openPopup(this)">
-          <img src="immagini/scheletroindacorossowatercolor.jpeg"onclick="openPopup(this)">
-          <img src="immagini/scheletrofogliewatercolor.png"onclick="openPopup(this)">
+        <a href="seconda.html" id="back">Back</a>
+        <div class="row">
+            <div class="column">
+                <img src="immagini/donna e farfallewatercolor.jpeg" onclick="openPopup(this)">
+                <img src="immagini/donnaranawatercolor.jpeg" onclick="openPopup(this)">
+                <img src="immagini/indacox2watercolor.jpeg" onclick="openPopup(this)">
+                <img src="immagini/medusawatercolor.png" onclick="openPopup(this)">
+                <img src="immagini/scheletriwatercolor.jpg" onclick="openPopup(this)">
+                <img src="immagini/scheletroindacorossowatercolor.jpeg" onclick="openPopup(this)">
+                <img src="immagini/scheletrofogliewatercolor.png" onclick="openPopup(this)">
+            </div>
+            <div class="column">
+                <img src="immagini/montagnawatercolor.png" onclick="openPopup(this)">
+                <img src="immagini/copertina 10.jpg" onclick="openPopup(this)">
+                <img src="immagini/copertina 3.jpg" onclick="openPopup(this)"">
+          <img src=" immagini/copertina 6.jpg"onclick="openPopup(this)"">
+          <img src=" immagini/copertina donna 3.jpg"onclick="openPopup(this)">
+                <img src="immagini/eye 1.jpg" onclick="openPopup(this)">
+            </div>
+            <div class="column">
+                <img src="immagini/R2.jpg" onclick="openPopup(this)">
+                <img src="immagini/R3.jpg" onclick="openPopup(this)">
+                <img src="immagini/rosa whater.jpeg" onclick="openPopup(this)">
+                <img src="immagini/bacino whater.jpeg" onclick="openPopup(this)">
+                <img src="immagini/orologio whater.jpeg" onclick="openPopup(this)">
+                <img src="immagini/mont whater.jpeg" onclick="openPopup(this)">
+                <img src="immagini/donna acqua whater.jpeg" onclick="openPopup(this)">
+            </div>
+            <div class="column">
+                <img src="immagini/india whater.jpeg" onclick="openPopup(this)">
+                <img src="immagini/giallo whater.jpeg" onclick="openPopup(this)">
+                <img src="immagini/occhio 3 whater.jpeg" onclick="openPopup(this)">
+                <img src="immagini/ultima water 1.jpeg" onclick="openPopup(this)">
+                <img src="immagini/ultima water 2.jpeg" onclick="openPopup(this)">
+                <img src="immagini/ultima water3.jpeg" onclick="openPopup(this)">
+            </div>
+            <div class="popup" onclick="closePopup()">
+                <img id="popupImage">
+            </div>
+            <script>
+                function openPopup(image) {
+                    var popup = document.querySelector('.popup');
+                    var popupImage = document.getElementById('popupImage');
+                    popupImage.src = image.src;
+                    popup.style.display = 'block';
+                }
+
+                function closePopup() {
+                    var popup = document.querySelector('.popup');
+                    popup.style.display = 'none';
+                }
+            </script>
         </div>
-        <div class="column">
-          <img src="immagini/montagnawatercolor.png"onclick="openPopup(this)">
-          <img src="immagini/copertina 10.jpg"onclick="openPopup(this)">
-          <img src="immagini/copertina 3.jpg"onclick="openPopup(this)"">
-          <img src="immagini/copertina 6.jpg"onclick="openPopup(this)"">
-          <img src="immagini/copertina donna 3.jpg"onclick="openPopup(this)">
-          <img src="immagini/eye 1.jpg"onclick="openPopup(this)">
-        </div> 
-        <div class="column">
-          <img src="immagini/R2.jpg"onclick="openPopup(this)">
-          <img src="immagini/R3.jpg"onclick="openPopup(this)">
-          <img src="immagini/rosa whater.jpeg"onclick="openPopup(this)">
-          <img src="immagini/bacino whater.jpeg"onclick="openPopup(this)">
-          <img src="immagini/orologio whater.jpeg"onclick="openPopup(this)">
-          <img src="immagini/mont whater.jpeg"onclick="openPopup(this)">
-          <img src="immagini/donna acqua whater.jpeg"onclick="openPopup(this)">
-        </div>
-        <div class="column">
-          <img src="immagini/india whater.jpeg"onclick="openPopup(this)">
-          <img src="immagini/giallo whater.jpeg"onclick="openPopup(this)">
-          <img src="immagini/occhio 3 whater.jpeg"onclick="openPopup(this)">
-          <img src="immagini/ultima water 1.jpeg"onclick="openPopup(this)">
-          <img src="immagini/ultima water 2.jpeg"onclick="openPopup(this)">
-          <img src="immagini/ultima water3.jpeg"onclick="openPopup(this)">
-        </div>
-        <div class="popup" onclick="closePopup()">
-          <img id="popupImage">
-        </div>
-        <script>
-          function openPopup(image) {
-            var popup = document.querySelector('.popup');
-            var popupImage = document.getElementById('popupImage');
-            popupImage.src = image.src;
-            popup.style.display = 'block';
-          }
-        
-          function closePopup() {
-            var popup = document.querySelector('.popup');
-            popup.style.display = 'none';
-          }
-        </script>
-      </div>
