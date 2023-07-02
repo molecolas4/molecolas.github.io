@@ -306,7 +306,7 @@ h1.gallery {
   font-size: 18px;
 }
 .bio-description {
-  font-size: 30px;
+  font-size: px;
   font-family: "Vegawanty", sans-serif;
   text-align: center;
   color: #213242;
@@ -369,25 +369,26 @@ h1.gallery {
 }
 
 .profile-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
   margin: 20px auto;
   display: block;
 }
 .bio {
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 20px;
+  color: #213242;
 }
 .full-width-image {
   width: 100%;
   height: auto;
 }
 .artistbio {
-  font-size: 50px;
+  font-size: 30px;
 }
 .artist-name {
-  font-size: 40px;
+  font-size: 50px;
 }
 .bio-description {
   font-size: 16px;
